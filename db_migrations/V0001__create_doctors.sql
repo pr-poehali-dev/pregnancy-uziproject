@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS t_p23992535_pregnancy_uziproject.doctors (id SERIAL PRIMARY KEY, name VARCHAR(200) NOT NULL, title VARCHAR(200), experience VARCHAR(100), education VARCHAR(300), specialization VARCHAR(300), photo_url TEXT, created_at TIMESTAMP DEFAULT NOW())

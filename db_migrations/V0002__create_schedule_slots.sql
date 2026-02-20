@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS t_p23992535_pregnancy_uziproject.schedule_slots (id SERIAL PRIMARY KEY, doctor_id INTEGER REFERENCES t_p23992535_pregnancy_uziproject.doctors(id), day_of_week VARCHAR(20) NOT NULL, time_slot VARCHAR(10) NOT NULL, is_active BOOLEAN DEFAULT TRUE, created_at TIMESTAMP DEFAULT NOW())
